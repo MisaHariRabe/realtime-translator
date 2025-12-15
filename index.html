@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Realtime Translator</title>
+	</head>
+	<body>
+		<div>
+			<div>
+				<label for="source-lang">Source: </label>
+				<select id="source-lang"></select>
+			</div>
+			<div>
+				<label for="destination-lang">Destination: </label>
+				<select id="destination-lang"></select>
+			</div>
+			<textarea id="source" style="resize: none" rows="6"></textarea>
+			<button id="translate-btn">Traduire</button>
+		</div>
+		<p id="destination"></p>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
